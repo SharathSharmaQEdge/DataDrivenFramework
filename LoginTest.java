@@ -24,9 +24,9 @@ public class LoginTest extends TestBase{
 		String actualTitle = driver.getTitle();
 		Assert.assertEquals(expectedTitle,actualTitle);
 		driver.findElement(By.xpath(or.getProperty("LogoutDropDown"))).click(); 
-		Thread.sleep(2000);  
+		Thread.sleep(4000);  
 		driver.findElement(By.xpath(or.getProperty("LogoutOption"))).click();
-		Thread.sleep(3000); 
+		Thread.sleep(5000); 
 				
 	}
 	
